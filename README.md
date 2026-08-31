@@ -6,7 +6,7 @@
 
 ### Solution Architect • Senior DevOps Engineer • Cloud Architect
 
-AWS · Azure · Kubernetes · Terraform · CI/CD · Python · Java · DevOps Automation
+AWS · Azure · Kubernetes · Terraform · CI/CD · Python · DevOps Automation
 
 <!--
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ayoubyouhad.com)
