@@ -8,9 +8,11 @@
 
 AWS · Azure · Kubernetes · Terraform · CI/CD · Python · Java · Spring Boot · DevOps Automation
 
+<!--
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ayoubyouhad.com)
+-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
-[![GitHub](https://img.shields.io/badge/GitHub-@saif-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saif)
+[![GitHub](https://img.shields.io/badge/GitHub-@Saifulrubkhan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saifulrubkhan)
 
 </div>
 
@@ -82,7 +84,7 @@ Containerized application deployment with Kubernetes orchestration and secure AW
 
 `EKS` `Kubernetes` `Docker`
 
-[View project →](https://github.com/saif/aws-cloud-projects/blob/main/05-containers-compute/29-k8s-backend/aws-compute-eks4.md)
+[View project →](https://github.com/Saifulrubkhan/aws-cloud-projects/blob/main/05-containers-compute/29-k8s-backend/aws-compute-eks4.md)
 
 </td>
 <td width="33%" valign="top">
@@ -93,7 +95,7 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 
 `Spring AI` `RAG` `Angular`
 
-[View project →](https://github.com/saif/ai-agent-spring-boot-angular.git)
+[View project →](https://github.com/Saifulrubkhan/ai-agent-spring-boot-angular.git)
 
 </td>
 </tr>
@@ -147,16 +149,16 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 
 <div align="center">
 
-<a href="https://github.com/saif">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=saif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Saiful's GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saif&layout=compact&theme=tokyonight&hide_border=true" alt="Saiful's top languages" />
+<a href="https://github.com/Saifulrubkhan">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Saifulrubkhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Saiful's GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulrubkhan&layout=compact&theme=tokyonight&hide_border=true" alt="Saiful's top languages" />
 </a>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=saif&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Saifulrubkhan&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -169,7 +171,9 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 If you are looking for a Solution Architect or Senior DevOps Engineer who can design cloud systems, automate delivery, and build scalable platform solutions, I’d love to connect.
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubsaiful@gmail.com)
+<!--
 [![Portfolio](https://img.shields.io/badge/Portfolio-View-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ayoubyouhad.com)
+-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
 
 </div>
