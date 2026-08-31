@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Ayoub+Youhad;Software+Engineer+%7C+AWS+Architect;Java+%7C+Spring+Boot+%7C+Cloud+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Saiful+Khan;Solution+Architect+%7C+Senior+DevOps+Engineer;AWS+%7C+Azure+%7C+Kubernetes+%7C+Cloud+Solutions" alt="Typing SVG" />
 
 # Saiful Khan
 
@@ -148,8 +148,8 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 <div align="center">
 
 <a href="https://github.com/saif">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=saif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ayoub's GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saif&layout=compact&theme=tokyonight&hide_border=true" alt="Ayoub's top languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=saif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Saiful's GitHub stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saif&layout=compact&theme=tokyonight&hide_border=true" alt="Saiful's top languages" />
 </a>
 
 </div>
