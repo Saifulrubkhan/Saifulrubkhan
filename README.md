@@ -1,112 +1,158 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Saiful+Khan;Solution+Architect+%7C+Senior+DevOps+Engineer;AWS+%7C+Azure+%7C+Kubernetes+%7C+Cloud+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Saiful+Khan+%F0%9F%91%8B;Solution+Architect+%7C+Senior+SRE;Building+secure%2C+scalable+cloud+systems" alt="Typing SVG" />
 
 # Saiful Khan
 
-### Solution Architect • Senior DevOps Engineer • Cloud Architect
+### Solution Architect · Senior DevOps / SRE · Cloud Architect
 
-AWS · Azure · Kubernetes · Terraform · CI/CD · Python · DevOps Automation
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-khansaiful.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://khansaiful.com)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-khansaiful.com-0ea5e9?style=for-the-badge&labelColor=0f172a)](https://khansaiful.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
 [![GitHub](https://img.shields.io/badge/GitHub-@Saifulrubkhan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saifulrubkhan)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=232F3E)](https://khansaiful.com)
+
+<br/>
+
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900" alt="AWS"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
 
 </div>
 
-<br>
+---
 
 ## About Me
 
-I am a Solution Architect focused on designing resilient cloud systems, automating delivery pipelines, and enabling scalable infrastructure for enterprise workloads. My work spans AWS and Azure cloud architecture, Kubernetes orchestration, infrastructure as code, CI/CD, Python automation, Java backend systems, and modern platform engineering.
+I design and deliver **production cloud platforms** — identity & access, edge delivery, CI/CD, and serverless data paths — with a focus on security, operability, and cost.
 
-I enjoy translating business needs into robust technical solutions, building automation that reduces operational friction, and delivering systems that are secure, scalable, and production-ready.
+My portfolio site **[khansaiful.com](https://khansaiful.com)** is a live AWS Cloud Resume Challenge build (not a static brochure): hosting, HTTPS, DNS, serverless APIs, and automated deploys.
 
-- 🔭 Designing cloud-native platforms and enterprise-grade deployment workflows
-- 🌐 Portfolio website: [khansaiful.com](https://khansaiful.com) — AWS Cloud Resume Challenge (S3, CloudFront, Lambda, DynamoDB, GitHub Actions)
-- 🌱 Specializing in AWS, Azure, Kubernetes, Terraform, CI/CD, Python, and cloud optimization
-- 📌 Open to Solution Architect, Senior DevOps, and Cloud Engineering opportunities
-- 🏆 Passionate about building scalable systems and modern engineering practices
+- 🔭 Cloud architecture, platform engineering, and reliable delivery pipelines
+- 🌐 Live portfolio: **[khansaiful.com](https://khansaiful.com)**
+- 🛠️ AWS · Azure · Kubernetes · Terraform · GitHub Actions · Python
+- 📌 Open to **Solutions Architect**, **Senior DevOps/SRE**, and cloud engineering roles
 
-<br>
+---
 
-## Experience
+## Live architecture — [khansaiful.com](https://khansaiful.com)
+
+```mermaid
+flowchart LR
+  user([User]) --> r53[Route 53]
+  r53 --> cf[CloudFront + ACM]
+  cf --> s3[S3 static site]
+  user --> api[API Gateway]
+  api --> lambda[Lambda]
+  lambda --> ddb[(DynamoDB)]
+  dev([Developer]) --> gh[GitHub]
+  gh --> gha[Actions + OIDC]
+  gha --> s3
+  gha --> cf
+```
+
+| Layer | What it does |
+|---|---|
+| **Edge** | Route 53 → CloudFront + ACM → S3 (OAC, HTTPS) |
+| **Serverless** | API Gateway → Lambda → DynamoDB (visitor count + contact) |
+| **Delivery** | GitHub Actions + OIDC → S3 sync + CloudFront invalidation |
+| **Next** | Terraform IaC migration **in progress** |
+
+[![Live Site](https://img.shields.io/badge/Live_Site-khansaiful.com-22c55e?style=for-the-badge&logo=vercel&logoColor=white&labelColor=14532d)](https://khansaiful.com)
+[![Website Repo](https://img.shields.io/badge/Repo-Saiful_CloudResumeWebsite-181717?style=for-the-badge&logo=github)](https://github.com/Saifulrubkhan/Saiful_CloudResumeWebsite)
+[![Visitor API](https://img.shields.io/badge/Repo-Cloud--Resume--Backend-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=232F3E)](https://github.com/Saifulrubkhan/Cloud-Resume-Backend)
+[![Contact API](https://img.shields.io/badge/Repo-cloud--resume--api-7C3AED?style=for-the-badge&logo=amazonapigateway&logoColor=white)](https://github.com/Saifulrubkhan/cloud-resume-api)
+
+---
+
+## Experience & strengths
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Solution Architect / Senior DevOps Engineer
+### 🧭 What I build
 
-- Designed and implemented AWS and Azure-based cloud architectures for scalable and secure systems
-- Built CI/CD pipelines, automation, and infrastructure delivery strategies across environments
-- Led Kubernetes, Docker, Terraform, and cloud-native platform design for production workloads
-- Worked across application architecture, platform engineering, and operational excellence
+- Secure AWS / Azure architectures for scalable systems  
+- CI/CD and automation across environments  
+- Kubernetes, Docker, and cloud-native platform design  
+- Platform engineering with operational excellence  
 
 </td>
 <td width="50%" valign="top">
 
-### Core Strengths
+### 💪 How I work
 
-- Cloud architecture and solution design for enterprise workloads
-- DevOps engineering, automation, and infrastructure optimization
-- Kubernetes, Terraform, and CI/CD pipeline implementation
-- Python and Java integration for scalable platform automation and application delivery
-- Focused on reliability, security, cost-efficiency, and operational excellence
+- Architecture trade-offs: security, cost, reliability  
+- Least-privilege IAM, OIDC federation, edge hardening  
+- Serverless APIs and event-driven patterns  
+- Clear docs so systems stay operable after go-live  
 
 </td>
 </tr>
 </table>
 
-<br>
+---
 
-## Featured Projects
-
-<div align="center">
-
-### ☁️ AWS Cloud Resume Challenge — [khansaiful.com](https://khansaiful.com)
-
-Production-style portfolio on AWS: Vite site on S3 + CloudFront (ACM, OAC), Route 53, serverless visitor counter (API Gateway → Lambda → DynamoDB), contact API, and GitHub Actions OIDC deploy. Terraform IaC migration in progress.
-
-`AWS` `CloudFront` `Lambda` `DynamoDB` `GitHub Actions` `OIDC`
-
-[Live site →](https://khansaiful.com) · [Website repo →](https://github.com/Saifulrubkhan/Saiful_CloudResumeWebsite) · [Visitor API →](https://github.com/Saifulrubkhan/Cloud-Resume-Backend)
-
-</div>
-
-<br>
+## Featured projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### ☁️ Multi-Region AWS Deployment
+### ☁️ AWS Cloud Resume Challenge
+**[khansaiful.com](https://khansaiful.com)**
 
-A resilient cloud architecture with traffic distribution and failover between regions.
+Production portfolio: Vite → S3/CloudFront, Route 53, Lambda visitor counter, contact API, GitHub Actions OIDC.
 
-`AWS` `Global Accelerator` `High Availability`
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+
+[Open live site →](https://khansaiful.com)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Multi-Region AWS Deployment
+
+Resilient traffic distribution and failover patterns across regions.
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![HA](https://img.shields.io/badge/High_Availability-22c55e?style=flat-square)
 
 [View project →](https://nextwork.ai/radiant_cyan_daring_clementine/docs/596362ad-0e33-40be-95a1-8f2b201dd44e)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### ⚙️ Amazon EKS Backend
 
-Containerized application deployment with Kubernetes orchestration and secure AWS integration.
+Containerized workloads on Kubernetes with secure AWS integration.
 
-`EKS` `Kubernetes` `Docker`
+![EKS](https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazoneks&logoColor=white)
+![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 [View project →](https://github.com/Saifulrubkhan/aws-cloud-projects/blob/main/05-containers-compute/29-k8s-backend/aws-compute-eks4.md)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🤖 AI Agent Application
 
-Full-stack AI app using Spring AI and Angular to work with documents and intelligent automation workflows.
+Full-stack AI app (Spring AI + Angular) for documents and automation workflows.
 
-`Spring AI` `RAG` `Angular`
+![Spring](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat-square)
 
 [View project →](https://github.com/Saifulrubkhan/ai-agent-spring-boot-angular.git)
 
@@ -114,85 +160,64 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 </tr>
 </table>
 
-<div align="center">
+---
 
-📌 <b>50+ hands-on projects completed across cloud, AI, and automation</b>
+## Tech stack
 
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,linux,githubactions,jenkins,python,java,git&theme=dark" alt="Tech stack icons" />
+</p>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube"/>
+  <img src="https://img.shields.io/badge/JFrog-Artifactory-41BF47?style=for-the-badge&logo=jfrog&logoColor=white" alt="JFrog"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus"/>
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible"/>
+</p>
 
-## Tech Stack
-
-<div align="center">
-
-### Cloud & Infra
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-
-
-### DevOps & Delivery
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![JFrog](https://img.shields.io/badge/JFrog-Artifactory-41BDF5?style=flat-square&logo=jfrog&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-</div>
-
-<br>
+---
 
 ## Certifications
 
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=232F3E" alt="AWS SAA"/>
+  <img src="https://img.shields.io/badge/AWS-AI_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=232F3E" alt="AWS AI"/>
+  <img src="https://img.shields.io/badge/KCNA-Cloud_Native-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KCNA"/>
+  <img src="https://img.shields.io/badge/Cisco-CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA"/>
+</p>
+
+<p align="center">
+  📄 More on my resume → <a href="https://khansaiful.com/resume.html"><b>khansaiful.com/resume.html</b></a>
+</p>
+
+---
+
+## GitHub snapshot
+
 <div align="center">
-
-![Cisco CCNA](https://img.shields.io/badge/Cisco-CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-📄 <b>More certifications available on my portfolio — <a href="https://khansaiful.com/resume.html">khansaiful.com/resume.html</a></b>
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Saifulrubkhan&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=F472B6&text_color=E5E7EB&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulrubkhan&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=E5E7EB" alt="Top languages" />
 </div>
 
-<br>
-
-## GitHub Contribution Snapshot
-
 <div align="center">
-
-<a href="https://github.com/Saifulrubkhan">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Saifulrubkhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Saiful's GitHub stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saifulrubkhan&layout=compact&theme=tokyonight&hide_border=true" alt="Saiful's top languages" />
-</a>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Saifulrubkhan&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
-<br>
-
-## Let's Connect
-
-<div align="center">
-
-If you are looking for a Solution Architect or Senior DevOps Engineer who can design cloud systems, automate delivery, and build scalable platform solutions, I’d love to connect.
-
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubsaiful@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-khansaiful.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://khansaiful.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
-
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=Saifulrubkhan&theme=radical&hide_border=true&background=0D1117" alt="GitHub streak" />
 </div>
 
 ---
 
+## Let’s connect
+
 <div align="center">
 
-<b>Built with passion for clean engineering and real-world problem solving.</b>
+Looking for a Solutions Architect or Senior DevOps/SRE who can design cloud systems, automate delivery, and keep platforms production-ready? Let’s talk.
+
+[![Portfolio](https://img.shields.io/badge/🌐_khansaiful.com-0ea5e9?style=for-the-badge&labelColor=0f172a)](https://khansaiful.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubsaiful@gmail.com)
+
+<br/>
+
+**Build once. Operate safely. Improve continuously.**
 
 </div>
