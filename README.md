@@ -8,9 +8,7 @@
 
 AWS · Azure · Kubernetes · Terraform · CI/CD · Python · DevOps Automation
 
-<!--
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20My%20Site-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ayoubyouhad.com)
--->
+[![Portfolio](https://img.shields.io/badge/Portfolio-khansaiful.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://khansaiful.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
 [![GitHub](https://img.shields.io/badge/GitHub-@Saifulrubkhan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saifulrubkhan)
 
@@ -25,6 +23,7 @@ I am a Solution Architect focused on designing resilient cloud systems, automati
 I enjoy translating business needs into robust technical solutions, building automation that reduces operational friction, and delivering systems that are secure, scalable, and production-ready.
 
 - 🔭 Designing cloud-native platforms and enterprise-grade deployment workflows
+- 🌐 Portfolio website: [khansaiful.com](https://khansaiful.com) — AWS Cloud Resume Challenge (S3, CloudFront, Lambda, DynamoDB, GitHub Actions)
 - 🌱 Specializing in AWS, Azure, Kubernetes, Terraform, CI/CD, Python, and cloud optimization
 - 📌 Open to Solution Architect, Senior DevOps, and Cloud Engineering opportunities
 - 🏆 Passionate about building scalable systems and modern engineering practices
@@ -62,6 +61,20 @@ I enjoy translating business needs into robust technical solutions, building aut
 <br>
 
 ## Featured Projects
+
+<div align="center">
+
+### ☁️ AWS Cloud Resume Challenge — [khansaiful.com](https://khansaiful.com)
+
+Production-style portfolio on AWS: Vite site on S3 + CloudFront (ACM, OAC), Route 53, serverless visitor counter (API Gateway → Lambda → DynamoDB), contact API, and GitHub Actions OIDC deploy. Terraform IaC migration in progress.
+
+`AWS` `CloudFront` `Lambda` `DynamoDB` `GitHub Actions` `OIDC`
+
+[Live site →](https://khansaiful.com) · [Website repo →](https://github.com/Saifulrubkhan/Saiful_CloudResumeWebsite) · [Visitor API →](https://github.com/Saifulrubkhan/Cloud-Resume-Backend)
+
+</div>
+
+<br>
 
 <table>
 <tr>
@@ -139,7 +152,7 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 ![Cisco CCNA](https://img.shields.io/badge/Cisco-CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![KCNA](https://img.shields.io/badge/KCNA-Kubernetes_and_Cloud_Native_Associate-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-📄 <b>More certifications available on my portfolio</b>
+📄 <b>More certifications available on my portfolio — <a href="https://khansaiful.com/resume.html">khansaiful.com/resume.html</a></b>
 
 </div>
 
@@ -171,9 +184,7 @@ Full-stack AI app using Spring AI and Angular to work with documents and intelli
 If you are looking for a Solution Architect or Senior DevOps Engineer who can design cloud systems, automate delivery, and build scalable platform solutions, I’d love to connect.
 
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubsaiful@gmail.com)
-<!--
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.ayoubyouhad.com)
--->
+[![Portfolio](https://img.shields.io/badge/Portfolio-khansaiful.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://khansaiful.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saiful-khan-29810426b/)
 
 </div>
