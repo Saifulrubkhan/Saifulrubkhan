@@ -69,6 +69,35 @@ flowchart LR
 
 ---
 
+## Security — GitHub Actions ↔ AWS via OIDC
+
+Deploys to [khansaiful.com](https://khansaiful.com) use **OIDC federation**, not long-lived `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` stored in GitHub secrets.
+
+```mermaid
+flowchart LR
+  push[Push to main] --> gha[GitHub Actions]
+  gha --> token[Short-lived OIDC token]
+  token --> idp[IAM OIDC provider<br/>token.actions.githubusercontent.com]
+  idp --> role[AssumeRoleWithWebIdentity]
+  role --> temp[Temporary AWS creds]
+  temp --> s3[S3 sync]
+  temp --> cf[CloudFront invalidation]
+```
+
+| Piece | Role |
+|---|---|
+| **GitHub OIDC** | Workflow requests `id-token: write`; GitHub mints a short-lived JWT for the job |
+| **IAM identity provider** | Trusts `token.actions.githubusercontent.com` |
+| **IAM deploy role** | Trust policy scoped to this repo (and usually `ref:refs/heads/main`) |
+| **`configure-aws-credentials`** | Exchanges the OIDC token for temporary credentials via `AssumeRoleWithWebIdentity` |
+| **Secrets kept** | Only non-credential config: `AWS_ROLE_ARN`, `S3_BUCKET`, `CLOUDFRONT_DISTRIBUTION_ID` |
+
+**Why it matters:** no standing access keys in the repo, credentials expire when the job ends, and the trust policy can lock assume-role to a single repository and branch — least privilege for CI/CD.
+
+Write-up with screenshots → [khansaiful.com/github.html](https://khansaiful.com/github.html)
+
+---
+
 ## Experience & strengths
 
 <table>
